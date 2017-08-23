@@ -437,9 +437,9 @@ get_sanitized_mysql_db_name()
 
 	# ----------------------------------------------------------------------------
 
-	# replace spaces, slashes, and dots with underscore
+	# replace spaces, slashes, dots, and dashes with underscore
 
-	_out=${_out//[" "\/\.]/"_"}
+	_out=${_out//[" "\/\.\-]/"_"}
 
 	# ----------------------------------------------------------------------------
 
