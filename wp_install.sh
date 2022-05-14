@@ -1636,16 +1636,13 @@ wp_set_files_root_dir()
 wp_set_files_themes_dir()
 {
 
-	# @notes: tmp copy twentyseventeen untill i figure a way to get latest theme
-
-	# ----------------------------------------------------------------------------
-
-	local _from_dir="${SETTINGS[wp_dir_name]}/wp-content/themes/twentyseventeen"
+	local _theme="twentytwentytwo" # @todo: find a way to auto get latest theme
+	local _from_dir="${SETTINGS[wp_dir_name]}/wp-content/themes/${_theme}"
 	local _to_dir="${SETTINGS[wp_content_foldername]}/themes"
 
 	# ----------------------------------------------------------------------------
 
-	sub_action_start "Copying twentyseventeen theme to ${_to_dir}"
+	sub_action_start "Copying ${_theme} theme to ${_to_dir}"
 
 	cp -r "${_from_dir}" "${_to_dir}"
 
