@@ -1834,7 +1834,8 @@ install_wp_usermeta()
 		array(
 			'dashboard_activity',
 			'dashboard_quick_press',
-			'dashboard_primary'
+			'dashboard_primary',
+			'dashboard_site_health'
 		)
 	"
 	metaboxhidden=$(php -r "echo serialize(${metaboxhidden});")
