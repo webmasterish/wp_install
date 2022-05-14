@@ -131,7 +131,7 @@ $_config = array(
 		// database defines applicable to all enviroments
 		// leave unchanged unless you know what you're doing
 
-		'DB_CHARSET' => 'utf8',
+		'DB_CHARSET' => 'utf8mb4',
 		'DB_COLLATE' => '',
 
 		// -------------------------------------------------------------------------

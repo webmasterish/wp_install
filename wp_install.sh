@@ -1036,7 +1036,7 @@ settings_populate_mysql()
 
 	SETTINGS[mysql_host]="${SETTINGS[mysql_host]:-localhost}"
 	SETTINGS[mysql_user]="${SETTINGS[mysql_user]:-root}"
-	SETTINGS[mysql_collate]="${SETTINGS[mysql_collate]:-CHARACTER SET utf8 COLLATE utf8_general_ci}"
+	SETTINGS[mysql_collate]="${SETTINGS[mysql_collate]:-CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci}"
 
 	# ----------------------------------------------------------------------------
 
