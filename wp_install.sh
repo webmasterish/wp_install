@@ -6,16 +6,13 @@
 # ==============================================================================
 #
 # - Info:
-#		- 2017-08-23
+#		- author : Webmasterish
+#		- created: 2017-08-23
 #
 # ------------------------------------------------------------------------------
 #
 # - Command:
-# 		bash wp_install.sh
-#
-# ------------------------------------------------------------------------------
-#
-# - @notes:
+# 		bash wp_install.sh or ./wp_install.sh
 #
 # ==============================================================================
 # USAGE AND NOTES - END
@@ -107,8 +104,8 @@ get_script_dir_path()
 declare -A SCRIPT_INFO=(
 
 	[name]="WP Install"
-	[version]="0.1.0"
-	[version_date]="2017-08-22"
+	[version]="0.1.2"
+	[version_date]="2022-05-14"
 	[author]="Webmasterish"
 	[url]="http://webmasterish.com/"
 	[file]="$(get_script_file)"
